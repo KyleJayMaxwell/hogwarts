@@ -90,5 +90,39 @@ INSERT INTO subjects VALUES
 (default, 'Herbology'),
 (default, 'Flying')
 
+INSERT INTO classes VALUES
+(default, 'Magical Theory' 7, 8),
+(default, 'Frog Choir 102' 5, 5),
+(default, 'Frog Choir 101' 6, 2),
+(default, 'Alchemy 105' 8, 24),
+(default, 'Xylomancy 101' 7, 25),
+(default, 'Orchestra 102' 4, 16),
+(default, 'Xylomancy 102' 7, 14),
+(default, 'Orchestra 101' 5, 12),
+(default, 'Ghoul Studies 102' 7, 23),
+(default, 'Apparition 101' 2, 3),
+(default, 'Study of Ancient Runes' 5, 21),
+(default, 'Music 101' 4, 23),
+(default, 'Art 102' 8, 14),
+(default, 'Art 101' 3, 11),
+(default, 'Alchemy 102' 7, 5),
+(default, 'Apparition 301' 8, 7),
+(default, 'Ghoul Studies 101' 6, 23),
+(default, 'Apparition 103' 5, 4),
+(default, 'Divination 103' 5, 8),
+(default, 'Music 103' 6, 3),
+(default, 'Arithmancy 101' 7, 17),
+(default, 'Care of Magical Creatures 103' 1, 1),
+(default, 'Care of Magical Creatures 101' 5, 16),
+(default, 'Muggle Studies 101' 2, 21),
+(default, 'Muggle Studies 102' 5, 5),
+(default, 'Care of Magical Creatures 102' 5, 16),
+(default, 'Divination 101' 6, 2),
+(default, 'Divination 102' 6, 22),
+(default, 'Alchemy 101' 7, 21)
 
-
+INSERT INTO houses VALUES 
+(default, 'Hufflepuff', 6),
+(default, 'Gryffindor', 21),
+(default, 'Slytherin', 22),
+(default, 'Ravenclaw', 1)
