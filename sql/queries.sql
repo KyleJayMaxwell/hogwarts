@@ -24,4 +24,11 @@ WHERE teacher_id = 3;
 -- How many students are of a given year?
 SELECT * FROM students WHERE year = 2;
 
+-- How many students don't have parents?
+
+SELECT * FROM students
+LEFT JOIN families
+ON students.id = families.student_id
+WHERE families.student_id IS NULL;
+
 

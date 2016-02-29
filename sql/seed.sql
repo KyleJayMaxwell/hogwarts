@@ -127,7 +127,7 @@ INSERT INTO families (parent_id, student_id) VALUES
 (6, 13),
 (2, 18),
 (6, 15),
-(3, 25),
+(3, 20),
 (6, 18),
 (3, 6),
 (1, 2),
